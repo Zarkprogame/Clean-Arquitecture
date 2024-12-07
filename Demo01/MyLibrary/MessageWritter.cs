@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyLibrary
 {
-    internal class MessageWritter
+    public class MessageWritter
     {
     }
 }
