@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\zarkprogame\\MyCode\\C#\\Clean Arquitecture\\Demo01\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9DCED081-D716-4D0B-BC0F-D7F499B1F577}|MyLibrary\\MyLibrary.csproj|c:\\users\\zarkprogame\\mycode\\c#\\clean arquitecture\\demo01\\mylibrary\\messagewritter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DCED081-D716-4D0B-BC0F-D7F499B1F577}|MyLibrary\\MyLibrary.csproj|solutionrelative:mylibrary\\messagewritter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MessageWritter.cs",
+              "DocumentMoniker": "C:\\Users\\zarkprogame\\MyCode\\C#\\Clean Arquitecture\\Demo01\\MyLibrary\\MessageWritter.cs",
+              "RelativeDocumentMoniker": "MyLibrary\\MessageWritter.cs",
+              "ToolTip": "C:\\Users\\zarkprogame\\MyCode\\C#\\Clean Arquitecture\\Demo01\\MyLibrary\\MessageWritter.cs",
+              "RelativeToolTip": "MyLibrary\\MessageWritter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:11:00.925Z",
+              "EditorCaption": ""
             }
           ]
         }
