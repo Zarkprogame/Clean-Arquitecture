@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7OPuZudqf64=",
+  "dgSpecHash": "7Eg0HlQmlqw=",
   "success": true,
   "projectFilePath": "C:\\Users\\zarkprogame\\MyCode\\C#\\Clean Arquitecture\\Demo01\\MyConsoleApp\\MyConsoleApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\zarkprogame\\.nuget\\packages\\figgle\\0.5.1\\figgle.0.5.1.nupkg.sha512"
+  ],
   "logs": []
 }
