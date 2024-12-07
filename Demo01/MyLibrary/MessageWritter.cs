@@ -8,5 +8,9 @@ namespace MyLibrary
 {
     public class MessageWritter
     {
-    }
+		public void Write(string message)
+		{
+			Console.WriteLine(message);
+		}
+	}
 }
