@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NorthWind.Writters
 {
-	internal class ConsoleWritter : IUserActionWritter
+	public class ConsoleWritter : IUserActionWritter
 	{
 		public void Write(UserAction action)
 		{
