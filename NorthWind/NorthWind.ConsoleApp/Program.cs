@@ -7,3 +7,6 @@ IUserActionWritter Writter = new ConsoleWritter();
 
 AppLogger Logger = new AppLogger(Writter);
 Logger.WriteLog("Application Starded.");
+
+ProductService Service = new ProductService(Writter);
+Service.Add("Demo", "Azucar Refinada");
