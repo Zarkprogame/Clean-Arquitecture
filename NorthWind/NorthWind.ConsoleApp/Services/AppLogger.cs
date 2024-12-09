@@ -8,7 +8,7 @@ using NorthWind.Entities.ValueObjects;
 
 namespace NorthWind.ConsoleApp.Services;
 
-internal class AppLogger(IUserActionWriter writter)
+internal class AppLogger(IUserActionWritter writter)
 {
 	public void WriteLog(string messagge)
 	{
