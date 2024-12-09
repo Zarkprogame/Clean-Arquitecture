@@ -3,7 +3,7 @@ using NorthWind.Entities.Interfaces;
 using NorthWind.Entities.ValueObjects;
 using NorthWind.Writters;
 
-IUserActionWritter Writter = new DebugWritter();
+IUserActionWritter Writter = new FileWritter();
 
 AppLogger Logger = new AppLogger(Writter);
 Logger.WriteLog("Application Starded.");
