@@ -1,12 +1,20 @@
-﻿using NorthWind.ConsoleApp.Services;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using NorthWind.ConsoleApp.Services;
 using NorthWind.Entities.Interfaces;
 using NorthWind.Entities.ValueObjects;
 using NorthWind.Writters;
 
-IUserActionWritter Writter = new FileWritter();
+var Builder = Host.CreateApplicationBuilder();
 
-AppLogger Logger = new AppLogger(Writter);
-Logger.WriteLog("Application Starded.");
+Builder.Services.AddSingleton<IUserActionWritter, DebugWritter>();
+Builder.Services.AddSingleton <AppLogger>();
+Builder.Services.AddSingleton <ProductService>();
 
-ProductService Service = new ProductService(Writter);
-Service.Add("Demo", "Azucar Refinada");
+using var AppHost = Builder.Build();
+
+AppLogger logger = AppHost.Services.GetRequiredService<AppLogger>();
+logger.WriteLog("Application Started");
+
+ProductService Service = AppHost.Services.GetRequiredService<ProductService>();
+Service.Add("Demo", "Azucar");
