@@ -7,9 +7,7 @@ using NorthWind.Writters;
 
 HostApplicationBuilder Builder = Host.CreateApplicationBuilder();
 
-Builder.Services.AddFileWritter();
-Builder.Services.AddConsoleWritter();
-Builder.Services.AddDebugWritter();
+Builder.Services.AddNorthWindServices();
 
 Builder.Services.AddSingleton<AppLogger>();
 Builder.Services.AddSingleton<ProductService>();
