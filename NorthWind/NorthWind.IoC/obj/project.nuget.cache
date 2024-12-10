@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MuexbGrcjuA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zarkprogame\\MyCode\\C#\\Clean Arquitecture\\NorthWind\\NorthWind.IoC\\NorthWind.IoC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zarkprogame\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

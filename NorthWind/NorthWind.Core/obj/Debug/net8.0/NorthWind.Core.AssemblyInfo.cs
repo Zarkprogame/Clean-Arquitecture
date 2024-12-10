@@ -11,11 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleApp")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("NorthWind.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7fe487f8b0d7af7d70c63dec63e3606b783ee894")]
-
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d33882690dd09ae9df92c3212d985bb7241acd5")]
+[assembly: System.Reflection.AssemblyProductAttribute("NorthWind.Core")]
+[assembly: System.Reflection.AssemblyTitleAttribute("NorthWind.Core")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
 
