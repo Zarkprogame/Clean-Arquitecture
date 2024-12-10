@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Microsoft.Extensions.DependencyInjection;
-{
+
 	public static class DependencyContainer
 	{
 		public static IServiceCollection AddServices(
@@ -19,4 +19,4 @@ namespace Microsoft.Extensions.DependencyInjection;
 			return services;
 		}
 	}
-}
+
