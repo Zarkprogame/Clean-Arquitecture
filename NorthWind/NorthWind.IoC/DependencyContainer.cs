@@ -14,6 +14,7 @@ namespace NorthWind.Writters
 			this IServiceCollection services)
 		{
 			services.AddDebugWritter();
+			services.AddServices();
 			return services;
 		}
 	}
