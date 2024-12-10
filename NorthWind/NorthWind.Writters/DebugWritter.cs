@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace NorthWind.Writters 
 {
-	public class DebugWritter : IUserActionWritter
+	internal class DebugWritter : IUserActionWritter
 	{
 		public void Write(UserAction action)
 		{

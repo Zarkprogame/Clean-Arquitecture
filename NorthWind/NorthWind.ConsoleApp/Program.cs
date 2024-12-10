@@ -5,12 +5,14 @@ using NorthWind.Entities.Interfaces;
 using NorthWind.Entities.ValueObjects;
 using NorthWind.Writters;
 
-var Builder = Host.CreateApplicationBuilder();
+HostApplicationBuilder Builder = Host.CreateApplicationBuilder();
 
-Builder.Services.AddSingleton<IUserActionWritter, DebugWritter>();
-Builder.Services.AddSingleton <AppLogger>();
-Builder.Services.AddSingleton <ProductService>();
+Builder.Services.AddFileWritter();
+Builder.Services.AddConsoleWritter();
+Builder.Services.AddDebugWritter();
 
+Builder.Services.AddSingleton<AppLogger>();
+Builder.Services.AddSingleton<ProductService>();
 using var AppHost = Builder.Build();
 
 AppLogger logger = AppHost.Services.GetRequiredService<AppLogger>();

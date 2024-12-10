@@ -8,11 +8,12 @@ using NorthWind.Entities.ValueObjects;
 
 namespace NorthWind.ConsoleApp.Services;
 
-internal class AppLogger(IUserActionWritter writter)
+internal class AppLogger(IEnumerable<IUserActionWritter> writters)
 {
 	public void WriteLog(string messagge)
 	{
 		UserAction Log = new UserAction("System", messagge);
-		writter.Write(Log);
+		foreach (var writter in writters)
+			writter.Write(Log);
 	}
 }
