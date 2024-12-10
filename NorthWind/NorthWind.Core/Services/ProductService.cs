@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NorthWind.ConsoleApp.Services
 {
-	internal class ProductService(IUserActionWritter writter)
+	internal class ProductService(IUserActionWritter writter) : IProductService
 	{
 		public void Add(string user, string ProductName)
 		{
